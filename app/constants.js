@@ -1,5 +1,7 @@
-export default {
-    CREATED_ACCOUNT: 'created account',
-    WITHDREW_FROM_ACCOUNT: 'withdrew from account',
-    DEPOSITED_INTO_ACCOUNT: 'deposited into account'
-}
+const constants = {
+    ADD_TO_DO: "add to do",
+    SET_VISIBILITY_FILTER: "set visibility",
+    TOGGLE_TODO: 'toggle todo'
+};
+
+export default constants;
